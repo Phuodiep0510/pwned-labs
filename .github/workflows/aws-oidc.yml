@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-1
       - name: AWS command
         run: |
-          aws s3 ls
+          aws s3 ls s3://huge-logistics-prod-mirror

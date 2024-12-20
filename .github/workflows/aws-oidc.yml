@@ -1,5 +1,6 @@
 name: Test workflow
-on: push:
+on:
+ push:
     branches:
       - main  # You can specify other branches if needed
 permissions:

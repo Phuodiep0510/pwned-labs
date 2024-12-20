@@ -6,7 +6,8 @@ on:
 permissions:
   id-token: write  # Required to request the OIDC token
   contents: read   # Optional, allows reading repository contents
-jobs: test:
+jobs:
+ test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
